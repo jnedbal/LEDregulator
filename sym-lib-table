@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name LEDregulator-rescue)(type Legacy)(uri ${KIPRJMOD}/LEDregulator-rescue.lib)(options "")(descr ""))
+)
