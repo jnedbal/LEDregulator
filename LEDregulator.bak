@@ -20,12 +20,12 @@ U 1 1 5CE493DC
 P 5700 4150
 F 0 "SW2" V 5654 4937 50  0000 L CNN
 F 1 "6pos rotary" V 5745 4937 50  0000 L CNN
-F 2 "" H 5600 4750 50  0001 C CNN
+F 2 "jakub:Nidec_Copal_SS-10-16" H 5600 4750 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2604296.pdf" H 5600 4750 50  0001 C CNN
 F 4 "SS-10-16NP-LE" H 5700 4150 50  0001 C CNN "Part Number"
-F 5 "Farnell" H 5700 4150 50  0001 C CNN "Distributor"
-F 6 "Nidec Copal" H 5700 4150 50  0001 C CNN "Manufacturer"
-F 7 "2854809" H 5700 4150 50  0001 C CNN "Order Code"
+F 5 "Nidec Copal" H 5700 4150 50  0001 C CNN "Manufacturer"
+F 6 "2854809" H 5700 4150 50  0001 C CNN "Order Code"
+F 7 "Farnell" H 5700 4150 50  0001 C CNN "Distributor"
 F 8 "6-position rotary switch" H 5700 4150 50  0001 C CNN "Description"
 	1    5700 4150
 	1    0    0    -1  
@@ -36,7 +36,7 @@ U 1 1 5CE519FB
 P 2500 1500
 F 0 "SW1" H 2500 1785 50  0000 C CNN
 F 1 "DPDT Switch" H 2500 1694 50  0000 C CNN
-F 2 "" H 2500 1500 50  0001 C CNN
+F 2 "jakub:switchDPDT" H 2500 1500 50  0001 C CNN
 F 3 "" H 2500 1500 50  0001 C CNN
 F 4 "1MD4T1B1M1QE" H 2500 1500 50  0001 C CNN "Part Number"
 F 5 "Farnell" H 2500 1500 50  0001 C CNN "Distributor"
@@ -52,7 +52,7 @@ U 2 1 5CE51BDE
 P 7850 1500
 F 0 "SW1" H 7850 1785 50  0000 C CNN
 F 1 "DPDT Switch" H 7850 1694 50  0000 C CNN
-F 2 "" H 7850 1500 50  0001 C CNN
+F 2 "jakub:switchDPDT" H 7850 1500 50  0001 C CNN
 F 3 "" H 7850 1500 50  0001 C CNN
 	2    7850 1500
 	-1   0    0    -1  
@@ -63,7 +63,7 @@ U 1 1 5CE52601
 P 1300 1600
 F 0 "J1" H 1355 1917 50  0000 C CNN
 F 1 "2.1mm DC jack" H 1355 1826 50  0000 C CNN
-F 2 "Connect:JACK_ALIM" H 1350 1560 50  0001 C CNN
+F 2 "jakub:2.1mmBarrelJack" H 1350 1560 50  0001 C CNN
 F 3 "~" H 1350 1560 50  0001 C CNN
 F 4 "FC681478" H 1300 1600 50  0001 C CNN "Part Number"
 F 5 "Cliff Electronics" H 1300 1600 50  0001 C CNN "Manufacturer"
@@ -428,12 +428,12 @@ U 1 1 5CE70B4D
 P 5900 1800
 F 0 "DC1" H 5900 2267 50  0000 C CNN
 F 1 "LED driver 24V/1A" H 5900 2176 50  0000 C CNN
-F 2 "" H 6100 1450 50  0001 C CNN
+F 2 "jakub:XPPOWER_LDU24" H 6100 1450 50  0001 C CNN
 F 3 "" H 6100 1300 50  0001 C CNN
 F 4 "LDU2430S1000" H 5900 1800 50  0001 C CNN "Part Number"
-F 5 "Farnell" H 5900 1800 50  0001 C CNN "Distributor"
-F 6 "XP Power" H 5900 1800 50  0001 C CNN "Manufacturer"
-F 7 "1738296" H 5900 1800 50  0001 C CNN "Order Code"
+F 5 "XP Power" H 5900 1800 50  0001 C CNN "Manufacturer"
+F 6 "1738296" H 5900 1800 50  0001 C CNN "Order Code"
+F 7 "Farnell" H 5900 1800 50  0001 C CNN "Distributor"
 F 8 "24V/1A adjustable LED driver" H 5900 1800 50  0001 C CNN "Description"
 	1    5900 1800
 	1    0    0    -1  
@@ -747,7 +747,7 @@ U 1 1 5CE71ACF
 P 3850 3900
 F 0 "JP1" V 3804 3966 50  0000 L CNN
 F 1 "Jumper_3_Bridged12" V 3895 3966 50  0000 L CNN
-F 2 "" H 3850 3900 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 3850 3900 50  0001 C CNN
 F 3 "~" H 3850 3900 50  0001 C CNN
 	1    3850 3900
 	0    -1   1    0   

@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/jakub/KiCAD/LEDregulator/LEDregulator.sch)
-    (date "Sat 25 May 2019 00:08:55 BST")
+    (date "Mon 27 May 2019 18:14:46 BST")
     (tool "Eeschema 5.0.2-bee76a0~70~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -17,6 +17,7 @@
   (components
     (comp (ref SW2)
       (value "6pos rotary")
+      (footprint jakub:Nidec_Copal_SS-10-16)
       (datasheet http://www.farnell.com/datasheets/2604296.pdf)
       (fields
         (field (name Description) "6-position rotary switch")
@@ -29,6 +30,7 @@
       (tstamp 5CE493DC))
     (comp (ref SW1)
       (value "DPDT Switch")
+      (footprint jakub:switchDPDT)
       (fields
         (field (name Description) "DPDT On-Off-On toggle switch")
         (field (name Distributor) Farnell)
@@ -105,7 +107,7 @@
       (tstamp 5CE93AA6))
     (comp (ref D1)
       (value MAX6006)
-      (footprint Package_TO_SOT_SMD:SOT-23)
+      (footprint TO_SOT_Packages_SMD:SOT-23)
       (fields
         (field (name Description) "1.25V shunt reference")
         (field (name Distributor) Farnell)
@@ -130,6 +132,7 @@
       (tstamp 5CE83BA3))
     (comp (ref DC1)
       (value "LED driver 24V/1A")
+      (footprint jakub:XPPOWER_LDU24)
       (fields
         (field (name Description) "24V/1A adjustable LED driver")
         (field (name Distributor) Farnell)
@@ -349,6 +352,7 @@
       (tstamp 5CEE31D1))
     (comp (ref JP1)
       (value Jumper_3_Bridged12)
+      (footprint Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm)
       (datasheet ~)
       (libsource (lib Jumper) (part Jumper_3_Bridged12) (description "Jumper, 3-pole, pins 1+2 closed/bridged"))
       (sheetpath (names /) (tstamps /))
