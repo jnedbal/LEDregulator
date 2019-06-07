@@ -1,12 +1,12 @@
 EESchema Schematic File Version 4
 LIBS:LEDregulator-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "LED power regulator"
-Date "2019-05-21"
+Date "2019-06-07"
 Rev "0"
 Comp "King's College London"
 Comment1 ""
@@ -79,22 +79,6 @@ Text Label 1600 1500 0    50   ~ 0
 +24V
 Wire Wire Line
 	6900 1600 7000 1600
-$Comp
-L Device:R R3
-U 1 1 5CE564E5
-P 5950 1100
-F 0 "R3" V 5850 1100 50  0000 C CNN
-F 1 "150R" V 5950 1100 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 5880 1100 50  0001 C CNN
-F 3 "~" H 5950 1100 50  0001 C CNN
-F 4 "MCWR06X1500FTL" H 5950 1100 50  0001 C CNN "Part Number"
-F 5 "Farnell" H 5950 1100 50  0001 C CNN "Distributor"
-F 6 "Multicomp" H 5950 1100 50  0001 C CNN "Manufacturer"
-F 7 "2447255" H 5950 1100 50  0001 C CNN "Order Code"
-F 8 "150Ω 0603 1% SMD resistor" H 5950 1100 50  0001 C CNN "Description"
-	1    5950 1100
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	3100 1400 3000 1400
 Wire Wire Line
@@ -203,10 +187,10 @@ Wire Wire Line
 Wire Wire Line
 	6900 3950 6500 3950
 $Comp
-L Device:R R10
+L Device:R R11
 U 1 1 5CE76725
 P 7050 4050
-F 0 "R10" V 7100 4250 50  0000 C CNN
+F 0 "R11" V 7100 4250 50  0000 C CNN
 F 1 "270R" V 7050 4050 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 6980 4050 50  0001 C CNN
 F 3 "~" H 7050 4050 50  0001 C CNN
@@ -222,22 +206,6 @@ Wire Wire Line
 	6900 4050 6500 4050
 Wire Wire Line
 	7200 4050 7400 4050
-$Comp
-L Connector:Screw_Terminal_01x02 J3
-U 1 1 5CE93AA6
-P 9050 1500
-F 0 "J3" H 9130 1492 50  0000 L CNN
-F 1 "2way Screw Terminal" H 9130 1401 50  0000 L CNN
-F 2 "Terminal_Blocks:TerminalBlock_bornier-2_P5.08mm" H 9050 1500 50  0001 C CNN
-F 3 "~" H 9050 1500 50  0001 C CNN
-F 4 "CTB0102/2" H 9050 1500 50  0001 C CNN "Part Number"
-F 5 "Farnell" H 9050 1500 50  0001 C CNN "Distributor"
-F 6 "CamdenBoss" H 9050 1500 50  0001 C CNN "Manufacturer"
-F 7 "2493614" H 9050 1500 50  0001 C CNN "Order Code"
-F 8 "2way 5mm screw terminal" H 9050 1500 50  0001 C CNN "Description"
-	1    9050 1500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8850 1500 8350 1500
 Wire Wire Line
@@ -417,11 +385,9 @@ Wire Wire Line
 Wire Wire Line
 	5200 4000 5200 3900
 Wire Wire Line
-	6600 1100 7000 1100
+	5900 1100 6000 1100
 Wire Wire Line
-	6100 1100 6300 1100
-Wire Wire Line
-	5800 1100 3100 1100
+	5600 1100 3100 1100
 $Comp
 L LEDregulator-rescue:LDU2430S1000-jakub DC1
 U 1 1 5CE70B4D
@@ -518,26 +484,10 @@ F 8 "100nF/50V X7R 0603 ceramic capacitor" H 5200 4150 50  0001 C CNN "Descripti
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R4
-U 1 1 5CEAD5AE
-P 6450 1100
-F 0 "R4" V 6350 1100 50  0000 C CNN
-F 1 "150R" V 6450 1100 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 6380 1100 50  0001 C CNN
-F 3 "~" H 6450 1100 50  0001 C CNN
-F 4 "MCWR06X1500FTL" H 6450 1100 50  0001 C CNN "Part Number"
-F 5 "Farnell" H 6450 1100 50  0001 C CNN "Distributor"
-F 6 "Multicomp" H 6450 1100 50  0001 C CNN "Manufacturer"
-F 7 "2447255" H 6450 1100 50  0001 C CNN "Order Code"
-F 8 "150Ω 0603 1% SMD resistor" H 6450 1100 50  0001 C CNN "Description"
-	1    6450 1100
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R14
+L Device:R R15
 U 1 1 5CEADEEE
 P 7550 3850
-F 0 "R14" V 7500 4050 50  0000 C CNN
+F 0 "R15" V 7500 4050 50  0000 C CNN
 F 1 "150R" V 7550 3850 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 7480 3850 50  0001 C CNN
 F 3 "~" H 7550 3850 50  0001 C CNN
@@ -550,10 +500,10 @@ F 8 "150Ω 0603 1% SMD resistor" H 7550 3850 50  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R16
+L Device:R R17
 U 1 1 5CEB2542
 P 7550 4050
-F 0 "R16" V 7500 4250 50  0000 C CNN
+F 0 "R17" V 7500 4250 50  0000 C CNN
 F 1 "47R" V 7550 4050 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 7480 4050 50  0001 C CNN
 F 3 "~" H 7550 4050 50  0001 C CNN
@@ -566,10 +516,10 @@ F 8 "47Ω 0603 1% SMD resistor" H 7550 4050 50  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R9
+L Device:R R10
 U 1 1 5CEB591C
 P 7050 3950
-F 0 "R9" V 7000 4150 50  0000 C CNN
+F 0 "R10" V 7000 4150 50  0000 C CNN
 F 1 "390R" V 7050 3950 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 6980 3950 50  0001 C CNN
 F 3 "~" H 7050 3950 50  0001 C CNN
@@ -582,10 +532,10 @@ F 8 "390Ω 0603 1% SMD resistor" H 7050 3950 50  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R15
+L Device:R R16
 U 1 1 5CEC2595
 P 7550 3950
-F 0 "R15" V 7500 4150 50  0000 C CNN
+F 0 "R16" V 7500 4150 50  0000 C CNN
 F 1 "180R" V 7550 3950 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 7480 3950 50  0001 C CNN
 F 3 "~" H 7550 3950 50  0001 C CNN
@@ -598,10 +548,10 @@ F 8 "180Ω 0603 1% SMD resistor" H 7550 3950 50  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R6
+L Device:R R7
 U 1 1 5CECA4F8
 P 7050 3650
-F 0 "R6" V 7000 3850 50  0000 C CNN
+F 0 "R7" V 7000 3850 50  0000 C CNN
 F 1 "2k7" V 7050 3650 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 6980 3650 50  0001 C CNN
 F 3 "~" H 7050 3650 50  0001 C CNN
@@ -614,10 +564,10 @@ F 8 "2.7kΩ 0603 1% SMD resistor" H 7050 3650 50  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R13
+L Device:R R14
 U 1 1 5CECB7A6
 P 7550 3750
-F 0 "R13" V 7500 3950 50  0000 C CNN
+F 0 "R14" V 7500 3950 50  0000 C CNN
 F 1 "820R" V 7550 3750 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 7480 3750 50  0001 C CNN
 F 3 "~" H 7550 3750 50  0001 C CNN
@@ -630,10 +580,10 @@ F 8 "820Ω 0603 1% SMD resistor" H 7550 3750 50  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R8
+L Device:R R9
 U 1 1 5CECBAFC
 P 7050 3850
-F 0 "R8" V 7000 4050 50  0000 C CNN
+F 0 "R9" V 7000 4050 50  0000 C CNN
 F 1 "820R" V 7050 3850 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 6980 3850 50  0001 C CNN
 F 3 "~" H 7050 3850 50  0001 C CNN
@@ -646,10 +596,10 @@ F 8 "820Ω 0603 1% SMD resistor" H 7050 3850 50  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R7
+L Device:R R8
 U 1 1 5CECBF11
 P 7050 3750
-F 0 "R7" V 7000 3950 50  0000 C CNN
+F 0 "R8" V 7000 3950 50  0000 C CNN
 F 1 "820R" V 7050 3750 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 6980 3750 50  0001 C CNN
 F 3 "~" H 7050 3750 50  0001 C CNN
@@ -662,10 +612,10 @@ F 8 "820Ω 0603 1% SMD resistor" H 7050 3750 50  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R12
+L Device:R R13
 U 1 1 5CECD51D
 P 7550 3650
-F 0 "R12" V 7500 3850 50  0000 C CNN
+F 0 "R13" V 7500 3850 50  0000 C CNN
 F 1 "220R" V 7550 3650 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 7480 3650 50  0001 C CNN
 F 3 "~" H 7550 3650 50  0001 C CNN
@@ -678,10 +628,10 @@ F 8 "220Ω 0603 1% SMD resistor" H 7550 3650 50  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R5
+L Device:R R6
 U 1 1 5CED022F
 P 7050 3550
-F 0 "R5" V 7000 3750 50  0000 C CNN
+F 0 "R6" V 7000 3750 50  0000 C CNN
 F 1 "6k8" V 7050 3550 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 6980 3550 50  0001 C CNN
 F 3 "~" H 7050 3550 50  0001 C CNN
@@ -694,10 +644,10 @@ F 8 "6.8kΩ 0603 1% SMD resistor" H 7050 3550 50  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R11
+L Device:R R12
 U 1 1 5CED37E9
 P 7550 3550
-F 0 "R11" V 7500 3750 50  0000 C CNN
+F 0 "R12" V 7500 3750 50  0000 C CNN
 F 1 "100R" V 7550 3550 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 7480 3550 50  0001 C CNN
 F 3 "~" H 7550 3550 50  0001 C CNN
@@ -772,11 +722,11 @@ F 0 "J2" H 2980 4292 50  0000 L CNN
 F 1 "2way Screw Terminal" H 2980 4201 50  0000 L CNN
 F 2 "Terminal_Blocks:TerminalBlock_bornier-2_P5.08mm" H 2900 4300 50  0001 C CNN
 F 3 "~" H 2900 4300 50  0001 C CNN
-F 4 "CTB0102/2" H 2900 4300 50  0001 C CNN "Part Number"
+F 4 "MC000034" H 2900 4300 50  0001 C CNN "Part Number"
 F 5 "Farnell" H 2900 4300 50  0001 C CNN "Distributor"
-F 6 "CamdenBoss" H 2900 4300 50  0001 C CNN "Manufacturer"
-F 7 "2493614" H 2900 4300 50  0001 C CNN "Order Code"
-F 8 "2way 5mm screw terminal" H 2900 4300 50  0001 C CNN "Description"
+F 6 "Multicomp" H 2900 4300 50  0001 C CNN "Manufacturer"
+F 7 "2008004" H 2900 4300 50  0001 C CNN "Order Code"
+F 8 "2way 5.08mm screw terminal" H 2900 4300 50  0001 C CNN "Description"
 	1    2900 4300
 	-1   0    0    -1  
 $EndComp
@@ -891,4 +841,72 @@ Text Notes 9200 3350 0    50   ~ 0
 Mounting\nHoles
 Text Notes 5850 2400 0    50   ~ 0
 LED driver 24V/1A
+$Comp
+L Device:R R5
+U 1 1 5CF9AA93
+P 6550 1100
+F 0 "R5" V 6450 1100 50  0000 C CNN
+F 1 "120R" V 6550 1100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 6480 1100 50  0001 C CNN
+F 3 "~" H 6550 1100 50  0001 C CNN
+F 4 "MCWR06X1500FTL" H 6550 1100 50  0001 C CNN "Part Number"
+F 5 "Farnell" H 6550 1100 50  0001 C CNN "Distributor"
+F 6 "Multicomp" H 6550 1100 50  0001 C CNN "Manufacturer"
+F 7 "2447240" H 6550 1100 50  0001 C CNN "Order Code"
+F 8 "120Ω 0603 1% SMD resistor" H 6550 1100 50  0001 C CNN "Description"
+	1    6550 1100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6400 1100 6300 1100
+Wire Wire Line
+	6700 1100 7000 1100
+$Comp
+L Device:R R4
+U 1 1 5CFA2193
+P 6150 1100
+F 0 "R4" V 6050 1100 50  0000 C CNN
+F 1 "120R" V 6150 1100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 6080 1100 50  0001 C CNN
+F 3 "~" H 6150 1100 50  0001 C CNN
+F 4 "MCWR06X1500FTL" H 6150 1100 50  0001 C CNN "Part Number"
+F 5 "Farnell" H 6150 1100 50  0001 C CNN "Distributor"
+F 6 "Multicomp" H 6150 1100 50  0001 C CNN "Manufacturer"
+F 7 "2447240" H 6150 1100 50  0001 C CNN "Order Code"
+F 8 "120Ω 0603 1% SMD resistor" H 6150 1100 50  0001 C CNN "Description"
+	1    6150 1100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5CFA27C4
+P 5750 1100
+F 0 "R3" V 5650 1100 50  0000 C CNN
+F 1 "120R" V 5750 1100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 5680 1100 50  0001 C CNN
+F 3 "~" H 5750 1100 50  0001 C CNN
+F 4 "MCWR06X1500FTL" H 5750 1100 50  0001 C CNN "Part Number"
+F 5 "Farnell" H 5750 1100 50  0001 C CNN "Distributor"
+F 6 "Multicomp" H 5750 1100 50  0001 C CNN "Manufacturer"
+F 7 "2447240" H 5750 1100 50  0001 C CNN "Order Code"
+F 8 "120Ω 0603 1% SMD resistor" H 5750 1100 50  0001 C CNN "Description"
+	1    5750 1100
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J3
+U 1 1 5CE93AA6
+P 9050 1500
+F 0 "J3" H 9130 1492 50  0000 L CNN
+F 1 "2way Screw Terminal" H 9130 1401 50  0000 L CNN
+F 2 "Terminal_Blocks:TerminalBlock_bornier-2_P5.08mm" H 9050 1500 50  0001 C CNN
+F 3 "~" H 9050 1500 50  0001 C CNN
+F 4 "MC000034" H 9050 1500 50  0001 C CNN "Part Number"
+F 5 "Farnell" H 9050 1500 50  0001 C CNN "Distributor"
+F 6 "Multicomp" H 9050 1500 50  0001 C CNN "Manufacturer"
+F 7 "2008004" H 9050 1500 50  0001 C CNN "Order Code"
+F 8 "2way 5.08mm screw terminal" H 9050 1500 50  0001 C CNN "Description"
+	1    9050 1500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
