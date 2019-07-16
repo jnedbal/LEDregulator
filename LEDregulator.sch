@@ -99,7 +99,7 @@ F 4 "EEE1JA470UP" H 4300 1950 50  0001 C CNN "Part Number"
 F 5 "Farnell" H 4300 1950 50  0001 C CNN "Distributor"
 F 6 "Panasonic" H 4300 1950 50  0001 C CNN "Manufacturer"
 F 7 "2326166" H 4300 1950 50  0001 C CNN "Order Code"
-F 8 "47µF/63V ceramic capacitor D8mm x H10.2mm" H 4300 1950 50  0001 C CNN "Description"
+F 8 "47µF/63V electrolytic capacitor D8mm x H10.2mm" H 4300 1950 50  0001 C CNN "Description"
 	1    4300 1950
 	1    0    0    -1  
 $EndComp
@@ -683,10 +683,10 @@ F 0 "R2" V 4900 4100 50  0000 C CNN
 F 1 "1k0" V 4950 3900 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 4880 3900 50  0001 C CNN
 F 3 "~" H 4950 3900 50  0001 C CNN
-F 4 "MCSR06X1001FTL" H 4950 3900 50  0001 C CNN "Part Number"
+F 4 "MCWR06X1001FTL" H 4950 3900 50  0001 C CNN "Part Number"
 F 5 "Farnell" H 4950 3900 50  0001 C CNN "Distributor"
 F 6 "Multicomp" H 4950 3900 50  0001 C CNN "Manufacturer"
-F 7 "2074166" H 4950 3900 50  0001 C CNN "Order Code"
+F 7 "2447272" H 4950 3900 50  0001 C CNN "Order Code"
 F 8 "1kΩ 0603 1% SMD resistor" H 4950 3900 50  0001 C CNN "Description"
 	1    4950 3900
 	0    1    1    0   
@@ -699,6 +699,12 @@ F 0 "JP1" V 4104 3966 50  0000 L CNN
 F 1 "Jumper_3_Bridged12" V 4195 3966 50  0000 L CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 4150 3900 50  0001 C CNN
 F 3 "~" H 4150 3900 50  0001 C CNN
+F 4 "2211S-03G" H 4150 3900 50  0001 C CNN "Part Number"
+F 5 "Multicomp" H 4150 3900 50  0001 C CNN "Manufacturer"
+F 6 "1x3 row" H 4150 3900 50  0001 C CNN "Package"
+F 7 "Farnell" H 4150 3900 50  0001 C CNN "Supplier"
+F 8 "1593412" H 4150 3900 50  0001 C CNN "Order Code"
+F 9 "3way 2.54mm header" H 4150 3900 50  0001 C CNN "Note"
 	1    4150 3900
 	0    -1   1    0   
 $EndComp
