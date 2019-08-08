@@ -504,7 +504,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model /home/jakub/kicad/share/kicad-jakub-packages/connectors/CTB0308/CTB0308_2.wrl
+    (model ${KISYS3DMOD}/jakub.3dshapes/connectors/CTB0308/CTB0308_2.wrl
       (offset (xyz 1.9 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 0 0 180))
@@ -587,7 +587,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model /home/jakub/kicad/share/kicad-jakub-packages/connectors/CTB0308/CTB0308_2.wrl
+    (model ${KISYS3DMOD}/jakub.3dshapes/connectors/CTB0308/CTB0308_2.wrl
       (offset (xyz 1.9 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 0 0 180))
@@ -670,7 +670,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model /home/jakub/kicad/share/kicad-jakub-packages/connectors/CTB0308/CTB0308_2.wrl
+    (model ${KISYS3DMOD}/jakub.3dshapes/connectors/CTB0308/CTB0308_2.wrl
       (offset (xyz 1.9 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 0 0 180))
@@ -753,7 +753,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model /home/jakub/kicad/share/kicad-jakub-packages/connectors/CTB0308/CTB0308_2.wrl
+    (model ${KISYS3DMOD}/jakub.3dshapes/connectors/CTB0308/CTB0308_2.wrl
       (offset (xyz 1.9 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 0 0 180))
@@ -836,7 +836,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model /home/jakub/kicad/share/kicad-jakub-packages/connectors/CTB0308/CTB0308_2.wrl
+    (model ${KISYS3DMOD}/jakub.3dshapes/connectors/CTB0308/CTB0308_2.wrl
       (offset (xyz 1.9 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 0 0 180))
@@ -1050,14 +1050,19 @@
     (pad 6 thru_hole oval (at 7.62 5.08) (size 2.1 1.9) (drill 1) (layers *.Cu *.Mask)
       (net 16 /0.46V))
     (model ${KISYS3DMOD}/jakub.3dshapes/switches/rotary/Nidec_Copal_SS-10-16.stp
-      (offset (xyz 3.81 -3.81 6.7))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 180))
-    )
-    (model /home/jakub/kicad/share/kicad-jakub-packages/switches/rotary/Nidec_Copal_SS-10-16.stp
       (offset (xyz 3.81 -3.81 13))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
+    )
+    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.step
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 0.8))
+      (rotate (xyz 0 0 0))
+    )
+    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.step
+      (offset (xyz 7.6 0 0))
+      (scale (xyz 1 1 0.8))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -1850,11 +1855,6 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
-    (model /home/jakub/kicad/share/kicad-jakub-packages/XPpower/LDU24.step
-      (offset (xyz 8.9 4.1 10.25))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 90 0 0))
-    )
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm (layer F.Cu) (tedit 5CF43F0C) (tstamp 5CEC47DC)
@@ -1907,7 +1907,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model /home/jakub/kicad/share/kicad-jakub-packages/connectors/shunts/shunt.wrl
+    (model ${KISYS3DMOD}/jakub.3dshapes/connectors/shunts/shunt.wrl
       (offset (xyz 0 -1.27 5.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 180 0 90))
@@ -2227,7 +2227,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model /home/jakub/kicad/share/kicad-jakub-packages/connectors/CTB0308/CTB0308_2.wrl
+    (model ${KISYS3DMOD}/jakub.3dshapes/connectors/CTB0308/CTB0308_2.wrl
       (offset (xyz 1.9 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 0 0 180))

@@ -1219,4 +1219,8 @@ F 3 "" H 2350 2350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2350 2350 2350 2250
+Text Notes 9650 6050 0    50   ~ 0
+Two or four fans\nMC002106, Multicomp
+Text Notes 9500 1000 0    50   ~ 0
+LED:\n2 meters of LED strip\nManufacturer: LEDXON MODULAR \nPart No: 9009079 \nPart No: LFBML-SW800-24V-6S167-20 
 $EndSCHEMATC
