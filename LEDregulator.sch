@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:LEDregulator-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -389,7 +389,7 @@ Wire Wire Line
 Wire Wire Line
 	5600 1100 3100 1100
 $Comp
-L LEDregulator-rescue:LDU2430S1000-jakub DC1
+L jakub:LDU2430S1000 DC1
 U 1 1 5CE70B4D
 P 6200 1800
 F 0 "DC1" H 6200 2267 50  0000 C CNN
