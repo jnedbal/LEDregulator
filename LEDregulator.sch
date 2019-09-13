@@ -5,12 +5,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "LED power regulator"
+Title "LED Power Regulator"
 Date "2019-08-09"
 Rev "1.1"
 Comp "King's College London"
-Comment1 "CC-BY-SA"
-Comment2 ""
+Comment1 "Jakub Nedbal"
+Comment2 "CC-BY-SA"
 Comment3 ""
 Comment4 ""
 $EndDescr
