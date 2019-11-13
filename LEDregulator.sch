@@ -669,7 +669,7 @@ L Jumper:Jumper_3_Bridged12 JP1
 U 1 1 5CE71ACF
 P 4150 3900
 F 0 "JP1" V 4104 3966 50  0000 L CNN
-F 1 "Jumper_3_Bridged12" V 4195 3966 50  0000 L CNN
+F 1 "Jumper" V 4195 3966 50  0000 L CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 4150 3900 50  0001 C CNN
 F 3 "~" H 4150 3900 50  0001 C CNN
 F 4 "2211S-03G" H 4150 3900 50  0001 C CNN "Part Number"
@@ -750,9 +750,9 @@ Text Label 7200 1400 0    50   ~ 0
 TrickleOut
 Text Label 7200 1600 0    50   ~ 0
 DriverOut
-Text Notes 10100 1350 0    50   ~ 0
+Text Notes 10100 1900 0    50   ~ 0
 LED\nOutput
-Text Notes 950  1100 0    50   ~ 0
+Text Notes 900  2500 0    50   ~ 0
 28V-30V\n1Amp Input\nIDEAL POWER \n15DYS624-300100W-K 
 $Comp
 L Mechanical:MountingHole H1
@@ -1219,8 +1219,8 @@ F 3 "" H 2350 2350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2350 2350 2350 2250
-Text Notes 9650 6050 0    50   ~ 0
+Text Notes 10100 4050 0    50   ~ 0
 Two or four fans\nMC002106, Multicomp
-Text Notes 9500 1000 0    50   ~ 0
+Text Notes 8800 1350 0    50   ~ 0
 LED:\n2 meters of LED strip\nManufacturer: LEDXON MODULAR \nPart No: 9009079 \nPart No: LFBML-SW800-24V-6S167-20 
 $EndSCHEMATC
