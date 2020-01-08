@@ -1,5 +1,5 @@
 # LEDregulator
-LED regulator electronics circuit for the [illuminated orbital shaker for algal cultures](https://app.labstep.com/sharelink/221d4460-8591-4ab5-ac0c-70b54c93532a).
+LED regulator electronics circuit for the [illuminated orbital shaker for microalgae cultures](https://app.labstep.com/sharelink/221d4460-8591-4ab5-ac0c-70b54c93532a).
 
 The circuit serves two functions: It regulates the current to the LED illuminator and it controls fans cooling the LEDs.
 
